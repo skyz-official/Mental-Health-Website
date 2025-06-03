@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-----META LINKS------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----BOOTSTRAP 5 CDN LINKS------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-----FONT AWESOME CDN LINK------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-----ATTACHED ICON CDN LINK------->
+    <link rel="icon" href="logo.png">
+    
+    <!-----CSS & JS FILE LINKS------->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Balanced Youh! : Hope, Pray, Work ~ A Project by Zainab Khalid</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-SM navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.png" height="50" width="60" alt="Logo"> Balanced Youh!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+
+       <!-----------MENU BAR------------>
+  <div class="menu container-fluid">
+    <div class="list-group list-group-flush list-group-horizontal list-group-item-secondary">
+        <a href="#" class="list-group-item list-group-item-action" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+            <i class="fa-solid fa-bars"></i> All
+        </a>
+        <a href="causes.html" target="_main" class="list-group-item list-group-item-action">
+            <i class="fa-solid fa-person-dress"></i> CAUSES
+        </a>
+        <a href="effects.html" target="_main" class="list-group-item list-group-item-action">
+            <i class="fa-solid fa-brain"></i> EFFECTS
+        </a>
+        <a href="treatment.html" target="_main" class="list-group-item list-group-item-action">
+            <i class="fa-solid fa-stethoscope"></i> TREATMENT
+        </a>
+        <a href="guide.html" target="_main" class="list-group-item list-group-item-action">
+            <i class="fa-solid fa-newspaper"></i> GUIDE
+        </a>
+    </div>
+</div>
+
+<!--------OFF CANVAS FOR ALL OPTION------>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">Title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum incidunt eaque perferendis adipisci ullam laudantium fugit similique! Illum rem ad eveniet tempore, suscipit, magni sed ullam quod optio harum veritatis.
+    </div>
+    <div class="offcanvas-footer">
+        <button class="btn btn-danger" data-bs-dismiss="offcanvas">Close</button>
+    </div>
+</div>   
+<!-------------------BACKGROUND DISPALY-------------------->
+<div class="carousel-container">
+  <!-- Background Images -->
+  <div class="carousel-bg" style="background-image: url('rainbow-5324147_1920.jpg');"></div>
+  <div class="carousel-bg" style="background-image: url('bike-2769021_1920.jpg'); animation-delay: 4s;"></div>
+  <div class="carousel-bg" style="background-image: url('yoga-4849683_1920.jpg'); animation-delay: 8s;"></div>
+
+  <!-- Text Content -->
+  <div class="carousel-text">
+      <h1 id="carousel-heading">Welcome to Our Website</h1>
+      <p id="carousel-subtext">Your gateway to success.</p>
+  </div>
+</div>
+<br><br>
+<!-----Headings 2---------------->
+<hr style="color: green;">
+<h2 style="color: seagreen;" class="ps-4">What is Mental Health?</h2>
+<p style="color: black; font-size: medium;" class="ps-4">Mental health refers to a person’s emotional, psychological, and social well-being, influencing how they think, feel, and behave in daily life. It plays a critical role in how individuals handle stress, relate to others, and make decisions. Good mental health allows people to cope with life’s challenges, maintain meaningful relationships, and work productively. Factors such as genetics, life experiences, and social environment can impact mental health, making it essential to prioritize self-care, build supportive connections, and seek professional help when needed. By nurturing mental health, individuals can enhance their overall quality of life and resilience.</p>
+<br>
+<h2 style="color: seagreen;" class="ps-4">Why a Balanced Mental Health is Important?</h2>
+<p style="color: black; font-size: medium;" class="ps-4">A balanced mental health is crucial because it forms the foundation of overall well-being and affects every aspect of life. When mental health is balanced, individuals can effectively manage stress, maintain healthy relationships, and make clear decisions. It fosters emotional resilience, enabling people to navigate challenges and bounce back from setbacks. Balanced mental health also enhances productivity, creativity, and focus, contributing to personal and professional success. Moreover, it reduces the risk of developing mental illnesses and chronic physical health conditions, such as heart disease and high blood pressure. By maintaining balanced mental health, individuals can lead more fulfilling, purposeful lives and contribute positively to their communities.</p>
+<br>
+<!------------Before Box------------->
+<h2 style="color: seagreen;" class="ps-4">How can you attain a Perfect Mental Health?</h2><br>
+<!--------After Box------------>
+<div class="author-box">
+  <div class="row"><div class="col-md-4">
+  <h4>1.Practice Self-Care</h4>
+  <p style="color: black; font-size: medium;" class="ps-4">-> Get enough sleep.<br>
+    -> Eat a balanced diet.<br>
+    -> Exercise regularly</p></div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"><img src="emoticon-1610573_640.png" height="130" width="170" ></div>
+
+  </div>
+  </div>
+  <div class="author-box">  <div class="row"><div class="col-md-4">
+
+    <h4>2.Promote Peace</h4>
+    <p style="color: black; font-size: medium;" class="ps-4">-> Ease and help others.<br>-> Be helpful to others</p></div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"><img src="emoticon-1626442_640.png" height="130" width="170" ></div>
+  
+  </div>
+  </div>
+<div class="author-box">  <div class="row"><div class="col-md-4">
+
+  <h4>3.Build Positive Relationships</h4>
+  <p style="color: black; font-size: medium;" class="ps-4">-> Love and spend time with close ones.<br>-> Spread Peace</p></div>
+  <div class="col-md-4"></div>
+  <div class="col-md-4"><img src="emoticon-1628080_640.png" height="130" width="170" ></div>
+
+</div>
+</div>
+<div class="author-box">  <div class="row"><div class="col-md-4">
+
+  <h4>4.Limit Negative Influences</h4>
+  <p style="color: black; font-size: medium;" class="ps-4">-> Reduce social media use.<br>
+    -> Avoid toxic environments.</p></div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"><img src="emoticon-1659233_640.png" height="130" width="170" ></div>
+
+  </div></div>
+<div class="author-box">  <div class="row"><div class="col-md-4">
+
+  <h4>5.Engage in Enjoyable Activities</h4>
+  <p style="color: black; font-size: medium;" class="ps-4">-> Pursue hobbies and passions.<br>
+    -> Spend time in nature.</p></div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"><img src="wink-1611815_640.png" height="130" width="170" ></div>
+
+  </div></div>
+<!---------------Spin Cards---------->
+<br><br>
+<hr style="border-color: green;">
+
+
+<div class="marquee-container">
+  <div class="marquee-content">
+      <!-- Card 1 -->
+      <div class="card">
+        <h5><b>HOPE</b></h5>
+        <img src="https://cdn.pixabay.com/photo/2016/09/23/22/45/schutzengelchen-1690635_1280.jpg" alt="Hope"  style="height: 150px;">
+          <div class="info-box squares">Hope is the key which keeps you going.</div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <h5><b>WORK</b></h5>
+
+        <img src="https://cdn.pixabay.com/photo/2016/03/27/19/00/coffee-1283672_1280.jpg"  style="height: 150px;" alt="Work">
+          <div class="info-box squares">Keep working until you get success.</div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <h5><b>PRAY</b></h5>
+
+        <img src="https://cdn.pixabay.com/photo/2019/09/28/05/10/sunset-4509879_1280.jpg" style="height: 150px;" alt="Pray">
+          <div class="info-box squares">Keep praying hard to get phenomenol.</div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <h5 ><b>Love</b></h5>
+
+        <img src="loveh.jpg"  style="height: 150px;">
+          <div class="info-box squares">Keep loving and let it never fade.</div>
+      </div>
+
+     
+  </div>
+</div>
+<br><hr style="color: green;"><br>
+<div class="reasons">
+<h3 style="color: green; margin-left: 30px;">WHY THESE PRINCIPLES , BECAUSE :)</h3>
+<h4 style="color: green; margin-left: 30px; margin-top: 30px;">Hope : </h4>
+<p style="margin-left: 30px;"><i>Hope is essential for mental health because it acts as a motivator, helps in coping with stress, and provides a sense of purpose. Here’s why it matters:
+<br><br>
+  🌱 1. Hope Reduces Stress & Anxiety
+  When people have hope, they focus on possibilities rather than obstacles. This mindset reduces stress hormones and prevents overwhelming anxiety.
+  <br><br>
+  💪 2. Hope Increases Resilience
+  Life is full of challenges, but hope helps people bounce back. Those with hope see failures as temporary setbacks rather than permanent defeats.
+  <br><br>
+  🧠 3. Hope Improves Brain Function
+  Studies show that hope enhances problem-solving skills and decision-making, making it easier to navigate difficult situations.
+  <br><br>
+  ❤️ 4. Hope Strengthens Emotional Well-being
+  A hopeful outlook fosters positive emotions like gratitude, joy, and optimism, leading to better relationships and self-esteem.
+  <br><br>
+  🔄 5. Hope Encourages Action
+  Hope isn’t just wishful thinking; it drives action. It keeps people motivated to set goals, work towards them, and believe that change is possible.</i></p>
+
+<hr style=" color: brown;">
+  <h4 style="color: green; margin-left: 30px; margin-top: 30px;">Pray : </h4>
+<p style="margin-left: 30px;"><i>Hope is essential for mental health because it acts as a motivator, helps in coping with stress, and provides a sense of purpose. Here’s why it matters:
+<br><br>
+🧘‍♂️ 1. Reduces Stress & Anxiety 
+
+Prayer helps in calming the mind, reducing cortisol levels, and promoting inner peace.<br><br>
+🕊️ 2. Boosts Emotional Stability 
+
+It provides a sense of hope, gratitude, and emotional balance, preventing mood swings and depression.<br><br>
+🪞 3.Enhances Self-Awareness & Reflection 
+
+Praying allows for self-reflection, helping individuals understand their thoughts and emotions better.<br><br>
+✨ 4.Strengthens Resilience 
+
+It provides inner strength and patience to face life’s challenges with a positive mindset.<br><br>
+🌍 5. Creates a Sense of Connection & Purpose 
+
+Prayer fosters a feeling of belonging, whether to a higher power, community, or personal values, reducing loneliness.</i></p>
+
+<hr style=" color: brown;">
+  <h4 style="color: green; margin-left: 30px; margin-top: 30px;">Work : </h4>
+<p style="margin-left: 30px;"><i>Work is important is maintaining menatl health as we have to do our best and it causes : <br><br>
+  🙏 1.Reduces Work Stress & Anxiety 
+
+  Prayer helps in calming the mind, reducing workplace stress, and improving focus. <br><br>
+  ⏳ 2.Boosts Patience & Decision-Making 
+  
+  It enhances patience and clarity, leading to better decision-making under pressure. <br><br>
+  ✨ 3.Improves Work Ethics & Integrity
+  
+  Encourages honesty, dedication, and a sense of responsibility in professional tasks. <br><br>
+  💼 4. Enhances Motivation & Productivity 
+  
+  Provides inner strength, motivation, and energy to stay productive throughout the day. <br><br>
+  🚀 5.Fosters Teamwork & Positivity 
+  
+  Promotes kindness, empathy, and better relationships with colleagues, creating a positive work environment.</i></p>
+
+
+
+  <hr style=" color: brown;">
+ 
+
+
+<h4 style="color: green; margin-left: 30px; margin-top: 30px;">Love : </h4>
+<p style="margin-left: 30px;"><i>By spreading and formulating love we get able to improve our positive relations with our mind which is a sign of a good mental health. <br><br>
+  🫂 1. Creates a Warm Connection 
+
+  A genuine smile makes your partner feel loved, valued, and emotionally connected.<br><br>
+  🌸 2.Enhances Attraction
+  
+  Smiling boosts your charm and makes you more appealing in a relationship.<br><br>
+  🌈 3.Eases Conflicts 
+  
+  A simple smile can diffuse tension, making it easier to resolve misunderstandings.<br><br>
+  💞 4.Strengthens Emotional Bond 
+  
+  Smiling together creates joyful moments, deepening intimacy and trust.<br><br>
+  🌻 5.Spreads Happiness & Positivity
+  
+  A smile is contagious; it uplifts your partner’s mood and brings joy to the relationship.
+
+</i></p>
+
+</div><br>
+<hr style="color: green;">
+<br></div>
+  
+<div class="container">
+  <h2>Helpful Videos</h2>
+  <br>
+  
+  <div class="videos">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="video-card">
+                  <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+                  <p class="video-title">GREAT: Helpful Practices to Manage Stress and Anxiety:</p>
+                  <p>Learn about helpful practices to manage stress and anxiety. GREAT was developed by Dr. Krystal Lewis, a licensed clinical psychologist at NIMH.</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="video-card">
+                  <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+                  <p class="video-title">Mental Health Minute: Stress and Anxiety in Adolescents:</p>
+                  <p>Got 60 seconds? Take a mental health minute to learn about stress and anxiety in adolescents.</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+                <p class="video-title">Different and effective techniques for relief from stress , anxiety ad depression:</p>
+                <p>Here we will teach you how to meditate effectively and correctly to live better.</p>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
+<br><br><br><br>
+<div style="height: 100px; width:1300px; background-color: orange;">
+  <p style="padding-left: 280px; padding-top: 40px;"><i>"There is nothing more important than your own well being or I just say your mental well being" ~ SKYZ By ZK</i> </p>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-4"><br>
+  <h3>Contact Us</h3>
+<ul>
+  <li>Phone :1234567</li>
+  <li>Email:ABC@gmail.com</li>
+  <li>Website:www.ABC.com</li>
+  <li>In office hours:3-6 a.m</li>
+</ul>
+
+</div>
+<div class="col-md-4"><br>
+  <h3>Follow Us</h3>
+  <ul>
+    <li>Facebook</li>
+    <li>Instagram</li>
+    <li>TikTok</li>
+    <li>SnapChat</li>
+  </ul>
+</div>
+<div class="col-md-4"><br>
+  <h3>Visit Us</h3>
+  <ul>
+    <li>A Town</li>
+    <li>B Town</li>
+    <li>C Town</li>
+  </ul>
+</div>
+</div>
+</div>
+<hr style="color: rgb(12, 210, 12);">
+<p style="font-size: large; padding-left :380px; padding-top: 20px;"><b>A DEMO WEBSITE BY ZAINAB KHALID :)</b></p>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
